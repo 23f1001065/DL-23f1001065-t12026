@@ -21,3 +21,12 @@ The core challenge lies in generalization. Instead of clean, original tracks, th
                   |                   |                          |
                   |                   |                          |
                 scratch_model      pretrained_model          third_model
+
+
+# Evaluation Metric : 
+Submissions are evaluated using the Macro F1 Score across the 10 genre classes:
+
+    Macro F1 computes the F1 score independently for each genre and then averages them.
+    This metric treats all genres equally, making it well-suited for evaluating performance under potential class imbalance.
+
+Higher macro F1 scores indicate better overall genre classification performance across all classes.
