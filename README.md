@@ -7,14 +7,14 @@ The Messy Mashup competition focuses on robust music genre classification under 
 
 The core challenge lies in generalization. Instead of clean, original tracks, the test data is composed of mashups created by mixing instrument stems from different songs belonging to the same genre. To ensure musical coherence during mixing, some instrument tracks may undergo tempo adjustments so that all stems are rhythmically synchronized before being combined. To further increase complexity and simulate real-world audio conditions, random noise samples are added to these mashups at varying intensities and positions.
 # Repository Structure : 
-                                  main branch                                                                                      milestone branches
-                                      |                                                                                                    |
-                                  /notebook                                                                                                |
-                                      |                                                                                              milestone wise notebooks
+                                  main branch                                                             milestone branches
+                                      |                                                                           |
+                                  /notebook                                                                       |
+                                      |                                                                milestone wise notebooks
                                       |
     |---------------------------------|------------------------------------------|
     |                                 |                                          |
-/preprocessing_notebook        /training_notebook                     /inference_notebook
+    /preprocessing_notebook        /training_notebook                     /inference_notebook
                                       |
                                       |
                   |-------------------|--------------------------|
