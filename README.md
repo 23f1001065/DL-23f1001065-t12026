@@ -14,7 +14,7 @@ The core challenge lies in generalization. Instead of clean, original tracks, th
                                       |
     |---------------------------------|------------------------------------------|
     |                                 |                                          |
-    /preprocessing_notebook        /training_notebook                     /inference_notebook
+    /preprocessing                /training                                 /inference
                                       |
                                       |
                   |-------------------|--------------------------|
